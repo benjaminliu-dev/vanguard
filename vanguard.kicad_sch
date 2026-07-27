@@ -5184,6 +5184,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 120.65) (xy 138.43 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23198097-9513-47f7-96c2-6dd48f55e65a")
+	)
+	(wire
+		(pts
 			(xy 190.5 80.01) (xy 182.88 80.01)
 		)
 		(stroke
@@ -5321,6 +5331,16 @@
 			(type default)
 		)
 		(uuid "836ae166-1df8-446e-9ff8-693c92441708")
+	)
+	(wire
+		(pts
+			(xy 125.73 123.19) (xy 147.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853d0fa7-6734-480f-b6f0-fa3722be7d7f")
 	)
 	(wire
 		(pts
@@ -5492,6 +5512,16 @@
 		)
 		(uuid "0b9c779f-efc6-48ea-bfb4-4042fc9342e6")
 	)
+	(label "TX"
+		(at 125.73 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13242605-1e01-4b72-8080-73aee41c3564")
+	)
 	(label "SCK"
 		(at 236.22 125.73 180)
 		(effects
@@ -5531,6 +5561,16 @@
 			(justify left bottom)
 		)
 		(uuid "576bb77c-1136-4ef1-b2ee-f44b01785864")
+	)
+	(label "RX"
+		(at 125.73 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d6afbe1-97e1-49a1-ac0f-fa47699fc72e")
 	)
 	(label "DIO1"
 		(at 261.62 123.19 0)
@@ -5651,6 +5691,16 @@
 			(justify left bottom)
 		)
 		(uuid "e4121c40-68b1-4ee3-9343-d9dd89f562e6")
+	)
+	(label "SS"
+		(at 236.22 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e49bca7e-60be-4966-b3c4-1743832aabf8")
 	)
 	(label "MOSI"
 		(at 125.73 100.33 0)
@@ -7075,6 +7125,84 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Connector:TestPoint_1.25mm")
+		(at 138.43 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46256643-9df8-4e86-93fe-a64b12c337e7")
+		(property "Reference" "TP2"
+			(at 143.51 120.65 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.25mm"
+			(at 134.62 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
+			(at 132.08 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 128.27 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b0499ba-e33f-42c0-9445-2e58bd064049")
+		)
+		(instances
+			(project "vanguard"
+				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Resistor:4.7k_0402")
 		(at 106.68 52.07 90)
 		(unit 1)
@@ -7750,6 +7878,84 @@
 			(project "vanguard"
 				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:TestPoint_1.25mm")
+		(at 147.32 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65b18fbe-4ac0-424a-a6ee-bba2d2eee447")
+		(property "Reference" "TP3"
+			(at 152.4 123.19 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.25mm"
+			(at 143.51 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
+			(at 140.97 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 137.16 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62644f9b-7ee3-4206-a001-3d411397446d")
+		)
+		(instances
+			(project "vanguard"
+				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -9794,84 +10000,6 @@
 			(project "vanguard"
 				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 236.22 130.81 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e8d08e3b-1743-473c-af9c-6cb858323aef")
-		(property "Reference" "#PWR025"
-			(at 229.87 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 232.41 130.81 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed1d914f-77c1-4493-b6d4-e340dd198ae9")
-		)
-		(instances
-			(project "vanguard"
-				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
