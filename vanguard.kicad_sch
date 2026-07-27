@@ -197,6 +197,269 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED:IR26-21C_L110_TR8"
 			(pin_numbers
 				(hide yes)
@@ -5114,16 +5377,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 120.65) (xy 95.25 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b09e0ae-d449-48ea-b3de-406e8fc82d43")
-	)
-	(wire
-		(pts
 			(xy 265.43 67.31) (xy 270.51 67.31)
 		)
 		(stroke
@@ -5154,6 +5407,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 40.64) (xy 80.01 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1549f133-0112-42b2-a803-b383b83c5fd1")
+	)
+	(wire
+		(pts
 			(xy 90.17 128.27) (xy 95.25 128.27)
 		)
 		(stroke
@@ -5161,6 +5424,16 @@
 			(type default)
 		)
 		(uuid "1e15aa26-484e-4dde-a9f9-843189b7b5d1")
+	)
+	(wire
+		(pts
+			(xy 138.43 116.84) (xy 125.73 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202fc161-86aa-4023-b31b-58411f63a185")
 	)
 	(wire
 		(pts
@@ -5181,16 +5454,6 @@
 			(type default)
 		)
 		(uuid "2263e1b6-bf1d-4b31-bb5d-aba08bf8a2d5")
-	)
-	(wire
-		(pts
-			(xy 125.73 120.65) (xy 138.43 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23198097-9513-47f7-96c2-6dd48f55e65a")
 	)
 	(wire
 		(pts
@@ -5254,6 +5517,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 116.84) (xy 125.73 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42944229-4f04-4342-8838-d98fdb177915")
+	)
+	(wire
+		(pts
+			(xy 86.36 120.65) (xy 86.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585ad8e3-3834-453b-b2ba-edb066239055")
+	)
+	(wire
+		(pts
 			(xy 82.55 130.81) (xy 78.74 130.81)
 		)
 		(stroke
@@ -5314,6 +5597,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 40.64) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8008cd3e-3d1d-45fb-b880-65fd76ac780c")
+	)
+	(wire
+		(pts
 			(xy 223.52 72.39) (xy 226.06 72.39)
 		)
 		(stroke
@@ -5334,13 +5627,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 123.19) (xy 147.32 123.19)
+			(xy 125.73 123.19) (xy 132.08 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "853d0fa7-6734-480f-b6f0-fa3722be7d7f")
+		(uuid "917afeed-feb1-4ab1-8c4a-686d21efb5a1")
 	)
 	(wire
 		(pts
@@ -5351,6 +5644,16 @@
 			(type default)
 		)
 		(uuid "9a9f9840-822f-4b46-babd-fecaa0900b69")
+	)
+	(wire
+		(pts
+			(xy 86.36 118.11) (xy 95.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f93687f-3aea-4959-822e-dcc8757a3276")
 	)
 	(wire
 		(pts
@@ -5401,6 +5704,16 @@
 			(type default)
 		)
 		(uuid "c94f9ce1-0745-41e7-aa72-38675e938432")
+	)
+	(wire
+		(pts
+			(xy 85.09 40.64) (xy 85.09 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1ba4ec-cba6-4706-bf6f-304d32f02abb")
 	)
 	(wire
 		(pts
@@ -5484,6 +5797,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 120.65) (xy 132.08 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb84465a-2a7d-44f1-93aa-e9a389f92952")
+	)
+	(wire
+		(pts
 			(xy 102.87 81.28) (xy 110.49 81.28)
 		)
 		(stroke
@@ -5491,6 +5814,16 @@
 			(type default)
 		)
 		(uuid "fdf22311-063a-4ec9-a124-77ae2363f0b7")
+	)
+	(wire
+		(pts
+			(xy 82.55 40.64) (xy 82.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7be084-6b0e-4566-83ce-6ee39a783caf")
 	)
 	(wire
 		(pts
@@ -5551,6 +5884,16 @@
 			(justify right bottom)
 		)
 		(uuid "3e50d58e-0367-4b48-9528-f190bf843285")
+	)
+	(label "SCL"
+		(at 85.09 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "492c3400-0f3a-4170-bd30-fd0cc4029505")
 	)
 	(label "DIO1"
 		(at 125.73 128.27 0)
@@ -5622,15 +5965,15 @@
 		)
 		(uuid "978443ba-e024-45f1-a1c3-a73b967f946b")
 	)
-	(label "CSTAT"
-		(at 130.81 115.57 0)
+	(label "SDA"
+		(at 125.73 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a76d2da6-68bf-45e1-b285-a1ddee78c9bd")
+		(uuid "9f81b3f4-56b6-48a3-b801-ac7004731df2")
 	)
 	(label "UPDI"
 		(at 106.68 54.61 270)
@@ -5662,6 +6005,16 @@
 		)
 		(uuid "be52bbed-f2df-4166-8c70-8bf5141c8f39")
 	)
+	(label "SDA"
+		(at 82.55 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c269d041-0ffb-40f6-b6bf-90cfbe1a43f5")
+	)
 	(label "RW_SW"
 		(at 125.73 133.35 0)
 		(effects
@@ -5672,6 +6025,16 @@
 		)
 		(uuid "cc89358c-9b51-4b0c-a11e-59faf142259c")
 	)
+	(label "CSTAT"
+		(at 143.51 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf802e16-d5e5-4910-965d-5293c073140c")
+	)
 	(label "MISO"
 		(at 236.22 123.19 180)
 		(effects
@@ -5681,6 +6044,16 @@
 			(justify right bottom)
 		)
 		(uuid "d02f80d4-b282-4e2d-9053-f26c8cd568e4")
+	)
+	(label "SCL"
+		(at 95.25 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6fe748d-0111-45fa-bc4b-ac66c7ce268b")
 	)
 	(label "BUSY"
 		(at 261.62 125.73 0)
@@ -5999,6 +6372,213 @@
 			(project "vanguard"
 				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Resistor:1k_0402")
+		(at 140.97 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c6a3bbb-d7e9-408f-bbec-8277cf8a4695")
+		(property "Reference" "R1"
+			(at 140.97 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 140.97 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+			(at 140.97 112.268 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 142.24 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "RES-14342"
+			(at 140.97 109.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "18ba717f-0b06-452c-899c-88f7ae840906")
+		)
+		(pin "1"
+			(uuid "c4c1bba5-0218-44d7-a948-78d7308f1cd2")
+		)
+		(instances
+			(project "vanguard"
+				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:Conn_01x02")
+		(at 137.16 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19a3a0ef-6883-43d8-8b00-f307c8a62f58")
+		(property "Reference" "J4"
+			(at 139.7 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 139.7 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+			(at 136.525 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "HEADER 1x2 MALE PINS 0.100” 180deg"
+			(at 137.16 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
+			(at 134.62 128.524 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "TAD"
+			(at 134.62 130.048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "1-0201FBV0T"
+			(at 134.62 131.572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3e0c6c6b-cb89-427d-891e-276b2b025c18")
+		)
+		(pin "2"
+			(uuid "cc327811-d3f8-4c18-8b65-e9126b72e136")
+		)
+		(instances
+			(project "vanguard"
+				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7125,84 +7705,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Connector:TestPoint_1.25mm")
-		(at 138.43 120.65 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46256643-9df8-4e86-93fe-a64b12c337e7")
-		(property "Reference" "TP2"
-			(at 143.51 120.65 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.25mm"
-			(at 134.62 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
-			(at 132.08 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test Point"
-			(at 128.27 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b0499ba-e33f-42c0-9445-2e58bd064049")
-		)
-		(instances
-			(project "vanguard"
-				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-Resistor:4.7k_0402")
 		(at 106.68 52.07 90)
 		(unit 1)
@@ -7370,6 +7872,84 @@
 			(project "vanguard"
 				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 77.47 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56b4b708-b955-42f3-aa27-a50e73ab9b3a")
+		(property "Reference" "#PWR025"
+			(at 71.12 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 45.72 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79b4afc1-c4e3-4a4a-a90d-9e964a29dc63")
+		)
+		(instances
+			(project "vanguard"
+				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7878,84 +8458,6 @@
 			(project "vanguard"
 				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Connector:TestPoint_1.25mm")
-		(at 147.32 123.19 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65b18fbe-4ac0-424a-a6ee-bba2d2eee447")
-		(property "Reference" "TP3"
-			(at 152.4 123.19 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.25mm"
-			(at 143.51 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Connector:TestPoint-1.25mm"
-			(at 140.97 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test Point"
-			(at 137.16 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "62644f9b-7ee3-4206-a001-3d411397446d")
-		)
-		(instances
-			(project "vanguard"
-				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8696,6 +9198,92 @@
 			(project "vanguard"
 				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 82.55 35.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89603a37-1149-4ccf-8a05-d025708c933b")
+		(property "Reference" "J3"
+			(at 81.28 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 81.28 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:JST_1x04_P1.0mm_Horizontal_SMD"
+			(at 82.55 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 82.55 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "17364502-da52-47b6-9bf7-5a78b0d575a5")
+		)
+		(pin "3"
+			(uuid "810c45c5-093a-4454-97a5-a6d7dc2d08f9")
+		)
+		(pin "4"
+			(uuid "fdf25ec3-c7db-4eea-a808-f40c45fc359a")
+		)
+		(pin "1"
+			(uuid "7fe6856f-9f2e-432b-9800-0898c5d2e4ed")
+		)
+		(instances
+			(project "vanguard"
+				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10120,6 +10708,84 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:3.3V")
+		(at 80.01 45.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd7cf61-90f2-42bb-9b9c-69fc957925e0")
+		(property "Reference" "#PWR027"
+			(at 80.01 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 80.01 49.53 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 80.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "830091b3-452b-40c8-817f-e4565bd7432f")
+		)
+		(instances
+			(project "vanguard"
+				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Connector:TestPoint_1.25mm")
 		(at 106.68 45.72 0)
 		(unit 1)
@@ -10192,96 +10858,6 @@
 			(project "vanguard"
 				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Resistor:1k_0402")
-		(at 128.27 115.57 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ff5bda23-9db1-4f02-a9b1-f95481b11332")
-		(property "Reference" "R1"
-			(at 128.27 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 128.27 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
-			(at 128.27 110.998 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 129.54 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-14342"
-			(at 128.27 108.712 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9e211475-b767-4a94-a68d-afb5344f5230")
-		)
-		(pin "1"
-			(uuid "f5590b2e-fb71-4788-bcd4-dbe0eb0a66e0")
-		)
-		(instances
-			(project "vanguard"
-				(path "/78a6367d-a593-4dcf-9355-c3caa8a456ec"
-					(reference "R1")
 					(unit 1)
 				)
 			)
