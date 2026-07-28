@@ -25,7 +25,7 @@
     Adafruit_GPS gps(&Wire);
 #elif I2CDEV == CRYPTO
     #include <cryptoauthlib.h>
-#elif I2CDEV == SGP30
+#elif I2CDEV
     #include <Adafruit_SGP30.h>
     Adafruit_SGP30 aq;
 #endif
@@ -75,8 +75,8 @@ void setup() {
 
     Wire.beginTransmission(0x10);
     if (Wire.endTransmission() != 0) {
-        config.gps_ok = false;
         Serial0.println(F("GPS Hardware Failure"));
+        config.gps_ok = false;
     } else {
         gps.begin(0x10);
         gps.sendCommand(PMTK_SET_NMEA_OUTPUT_OFF);
@@ -105,7 +105,15 @@ void setup() {
     }
 
 #elif I2CDEV == ETD
-    // ETD specific setup
+    if (!aq.begin()) {
+        Serial0.println(F("AQ initialization failed"));
+        config.aq_sensor_ok = false;
+    } else {
+        config.use_aq_sensor = true;
+        config.log_aq_sensor = LOG_AQ;
+        config.aq_sensor_interval_s = LOG_AQ_INTERVAL_S;
+        Serial0.println(F("ETD Sensing Ready"));
+    }
 
 #else
     // Default fallback
