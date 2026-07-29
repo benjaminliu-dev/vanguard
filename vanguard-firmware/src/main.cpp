@@ -25,7 +25,7 @@
     Adafruit_GPS gps(&Wire);
 #elif I2CDEV == CRYPTO
     #include <cryptoauthlib.h>
-#elif I2CDEV
+#elif I2CDEV == ETD
     #include <Adafruit_SGP30.h>
     Adafruit_SGP30 aq;
 #endif
