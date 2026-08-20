@@ -270,7 +270,8 @@ void setup()
                 Serial0.println(F("help - Show available commands"));
                 Serial0.println(F("exit - Exit debug mode"));
             }
-            else if (input == "erase_messages") {
+            else if (input == "erase_messages")
+            {
                 memset(config.messages, 0, sizeof(config.messages));
                 Serial0.println(F("Messages erased."));
             }
@@ -284,5 +285,4 @@ void setup()
 
 void loop()
 {
-    // Main logic
 }
